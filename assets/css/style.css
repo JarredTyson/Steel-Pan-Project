@@ -7,10 +7,26 @@ font-family: "Roboto",sans-sarif;
 
 header{
     position: fixed;
-    background: 0;
+    background: #4CCDBE;
     padding: 20px;
     width: 100%;
-    height: 30px;
+    height: 18%;
+
+}
+.logo_area{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 45%;
+    top:-10%;
+    margin-left: -130px;
+}
+img{
+    height: 200px;
+    padding-left: 35%;
+}
+#check{
+    visibility: hidden;
 }
 
 .left-area h3{
@@ -21,56 +37,29 @@ header{
     font-weight: 900;
 }
 
-.left_area span{
-    color: 
-}
-
-.logout_btn{
-    padding: 5px;
-    background: #000;
-    text-decoration: none;
-    float: right;
-    margin-top: -30px;
-    margin-right: 40px;
-    border-radius: 2px;
-    font-size: 15px;
-    font-weight: 600;
-    color: #000;
-    transition: 0.5s;
-    
-}
-
-.logout_btn:hover{
-background: #717171;
-}
 
 .sidebar{
-    background: #2F323A;
+    background: #4CCDBE;
     margin-top: 70px;
-    padding-top: 30px;
+    padding-top: 90px;
     position: fixed;
     left: 0;
-    width: 250;
+    width: 250px;
     height: 100%;
     transition: 0.5s;
     transition-property: left;
 }
-
-.sidebar .profile_image{
-    width: 100px;
-    height: 100px;
-    border-radius: 100px;
-    margin-bottom: 10px;
+.sidebar .logo{
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  margin-bottom: 10px;  
 }
 
 .sidebar h4{
     color:#ccc;
-    display: block;
-    width: 100%;
-    line-height: 60px;
-    text-decoration: none;
-    padding-left: 40px;
-    box-sizing: border-box;
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 
 .sidebar a{
@@ -83,16 +72,14 @@ background: #717171;
     box-sizing: border-box;
     transition: 0.5;
     transition-property: background;
-
-    
 }
 
 .sidebar a:hover{
-   background: #19B202; 
+   background: #4B9D94; 
 }
 
 .sidebar i{
-    padding-right: 10px;
+    padding-right: 20px;
 }
 
 label #sidebar_btn{
@@ -100,8 +87,8 @@ label #sidebar_btn{
     color: #fff;
     position: pointer;
     left: 300px;
-    font-size: 20px;
-    margin: 5px 0;
+    font-size: 30px;
+    margin: 15px 60px;
     transition-property: color;
 }
 
@@ -115,13 +102,106 @@ label #sidebar_btn:hover{
 }
 
 #check:checked ~ .sidebar a span{
-    display:none;
+    display: none;
 }
 
-#check:checked ~ .sidebar a{
+#check:checked ~.sidebar a{
     font-size: 20px;
     margin-left: 170px;
     width: 80px;
 }
 
 
+/* styling of contact page*/
+*{
+    margin; 0;
+    padding: 0;
+}
+
+body{
+    background: #55ffe5;
+    font-size: 14px;
+}
+.container{
+    width: 80%;
+    margin: 50px auto;
+}
+.contact-box{
+    background: #fff;
+    display: flex;
+}
+.contact-left{
+    flex-basis: 60%;
+    padding: 40px 60px;
+}
+.contact-right{
+    flex-basis: 60%;
+    padding: 60%;
+    background: #1c00b5;
+    color: #fff;
+}
+h1{
+margin-bottom: 10px;
+}
+.container p {
+    margin-bottom: 40px;
+}
+
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-row .input-group{
+    flex-basis: 45%;
+}
+input{
+    width: 100%;
+    border:none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+}
+textarea{
+    width: 100%;
+    border:none;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+label{
+    margin-bottom: 6px;
+    display: block;
+    color: #1c00b5;
+}
+
+button{
+   background: #1c00b5;
+   width: 100px;
+   border: none;
+   outline:none;
+   color: #fff;
+   height: 35px;
+   border-radius: 30px;
+   margin-top: 20px;
+   box-shadow: 0px 5px 15px 0px rgba(28, 0 ,181, 0.3);
+}
+contact-left h3{
+    color: #1c00b5;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+contact-right h3{
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+tr td:first-child{
+    padding-right: 20px;
+}
+
+tr td {
+    padding-top: 20px;
+}
