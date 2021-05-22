@@ -16,37 +16,51 @@
 </head>
 
 <body>
-    <div class="header">
-        <!--Header area Start-->
-        <input type="checkbox" id="check">
-        <header>
-            <label for="check">
-                <i class="fas fa-bars" id="sidebar_btn"></i>
-            </label>
-            <div class="logo_area">
-                <a href=""><img src="LOGO-01.png" alt="logo"></a>
-        </header>
+ <input type="checkbox" id="check">
 
-        <div class="sidebar">
-
-            <a href="index.html"><i class="fas fa-info"></i><span>Home</span></a>
-            <a href="About_Us.html"><i class="fas fa-info"></i><span>About Us</span></a>
-            <a href="#"><i class="fas fa-info"></i><span>News</span></a>
-            <a href="#"><i class="fas fa-info"></i><span>Classes</span></a>
-            <a href="contact-us.html"><i class="fas fa-info"></i><span>Contact Us</span></a>
-        </div>
-
-    </div>
-
-    <!--Contact Form-->
-    <div class="container">
-        <h1>Connect With Us</h1>
-        <p>We would love to response to your queries and help you succeed. Feel free to get in touch with us.</p>
+    <!--Header area Start-->
+    
+    <header>
+        
+                <label for="check">
+                    <i class="fas fa-bars" id="sidebar_btn"></i>
+                </label>
+    
+                <div class="logo_area">
+                    <a href=""><img src="LOGO-01.png" alt="logo"></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--Sidebar-->
+    <section class="sidebar">
+        <div class="container padding">
+          
+               
+                
+                        <a href="index.html"><i class="fas fa-info"></i><span>Home</span></a>
+                    
+                        <a href="About_Us.html"><i class="fas fa-info"></i><span>About Us</span></a>
+                  
+                        <a href="news.html"><i class="fas fa-info"></i><span>News</span></a>
+                  
+                        <a href="classes.html"><i class="fas fa-info"></i><span>Classes</span></a>
+                   
+                        <a href="contact-us.html"><i class="fas fa-info"></i><span>Contact Us</span></a>
+                   
+                </div>
+           
+    
+    </section>
+    <!--Introduction-->
+    <section>
+      <div class="container">
+    
         <div class="contact-box">
             <div class="contact-top">
                 <h3>Send your request</h3>
 
-                <form>
+                <form onsubmit="return sendMail(this);" method="POST">
                     <div class="input-row">
                         <div class="input-group">
                             <label>Name</label>
@@ -62,36 +76,24 @@
                         </div>
                     </div>
                     <label>Message</label>
-                    <textarea rows="10" placeholder="Your Message"></textarea>
+                    <textarea rows="9" placeholder="Your Message"></textarea>
                     <button type="submit">SEND</button>
                 </form>
-                <!--
-                <div class="contact-bottom">
-                    <h3>Reach Us</h3>
-                    <table>
-                        <tr>
-                            <td>Email</td>
-                            <td>contactus@example.com</td>
-                        </tr>
-                        <tr>
-                            <td>Phone</td>
-                            <td>+1 012 345 6589</td>
-                        </tr>
-                        <tr>
-                            <td>Address</td>
-                            <td>12 Woodpecker House
-                                Random place, random road, Guatamala
-                                SQ54 0PO
-                            </td>
-                        </tr>
-                    </table>
+  </section>
+    </section>
+    <section>
+        <footer>
+            <div class="container padding">
+                <div>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-google-plus-g"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
                 </div>
-            -->
             </div>
-        </div>
-    </div>
 
-
+        </footer>
 </body>
 
 </html>
