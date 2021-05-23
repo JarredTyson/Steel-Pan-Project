@@ -12,10 +12,14 @@
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <!-- <link rel="stylesheet" href="/01-GoogleMaps/01-adding_map_element/assets/css/style.css">-->
+    
+     
+
     <title>Steel Pan Project</title>
 </head>
 
-<body>
+<body onload="initMap()";>
  <input type="checkbox" id="check">
 
     <!--Header area Start-->
@@ -58,19 +62,18 @@
             <div class="contact-down">
                 <div class="main-area">
                     <div class="intro">
-                        <h3>Classes</h3>
+                        <h3>Find A Class Near You!</h3>
                     </div>
                     <div class="text-info">
-                        <p>Welcome to Steelpan Project. The organisation that is passionate about the development of Steelpan. We aim to work with communities to improve its diversification. The instrument is still not as widely known as conventional instruments and we aim to improve that by creating classes and getting more people playing the instrument. Our experience with instrument has seen many positive affects on individuals and communities and believe the instrument with its high tones can lift people’s spirits.  We are a growing organisation and continue to strive in increase the accessibility and hope your interest sees you joining our community. </p>
+                    <p>We have a classes located around the country. Find your local class.</p>
                     </div>
-                    <div>
-                        <img class="img-intro" src="Steel_School02.jpeg" alt="">
-                    </div>
+                    <div id="map"></div>
+                    
                 </div>
             </div>
         </div>
     </section>
-    </section>
+
     <section>
         <footer>
             <div class="container padding">
@@ -84,6 +87,12 @@
             </div>
 
         </footer>
+       
+         <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBZ0-4A7afqvn6pC9JL7KasmSkzWockF_U"></script>
+    <script src="assets/js/maps.js"></script>
+
+  
 </body>
 
 </html>

@@ -224,7 +224,10 @@ tr td {
     transition: 0.5s;
     transition-property: left;
 }
-
+.intro h3{
+    text-decoration: underline;
+    padding: 1rem;
+}
 .main-area img{
     display: inline;
     vertical-align: middle;
@@ -280,4 +283,12 @@ footer {
 .fa-youtube:hover {
     color: #4B9D94
     
+}
+
+#map{
+    
+    height: 300px;
+    width: 75%;
+    margin-top: 20%;
+
 }
