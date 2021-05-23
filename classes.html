@@ -12,6 +12,7 @@
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <!-- <link rel="stylesheet" href="/01-GoogleMaps/01-adding_map_element/assets/css/style.css">-->
     
      
@@ -67,6 +68,7 @@
                     <div class="text-info">
                     <p>We have a classes located around the country. Find your local class.</p>
                     </div>
+                    <div id="formatted-address"></div>
                     <div id="map"></div>
                     
                 </div>
@@ -91,8 +93,19 @@
          <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBZ0-4A7afqvn6pC9JL7KasmSkzWockF_U"></script>
     <script src="assets/js/maps.js"></script>
+    <script src="assets/js/maps2.js"></script>
+<script>
+    // const successCallback = (position) => {
+    //     console.log(position);
+    // };
+    //  const successCallback = (error) => {
+    //     console.error(error);
+    // };
+    // navigator.geolocation.getCurrentPosition(successCallback, errorCallback);
+</script>
 
-  
+
+
 </body>
 
 </html>

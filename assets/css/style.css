@@ -177,15 +177,16 @@ label{
 
 button{
    background: #4CCDBE;
-   width: 150px;
+   width: 100px;
    border: none;
    outline:none;
    color: #fff;
    height: 35px;
    border-radius: 30px;
-   margin-top: 20px;
    box-shadow: 0px 5px 15px 0px rgba(28, 0 ,181, 0.3);
+
 }
+
 
 
 tr td:first-child{
@@ -199,17 +200,16 @@ tr td {
 /* Introduction*/
 .contact-down{
     width: 100%;
-    padding-top: 10%;
+    height: 80%;
+    padding-top: 200px;
 }
 
 .main-area{
     background: #fff;
-    margin-top: 80px;
-   
-    
     width: 100%;
     height: 100%;
     padding-left: 300px;
+   
 
 }
 
@@ -224,9 +224,9 @@ tr td {
     transition: 0.5s;
     transition-property: left;
 }
-.intro h3{
+.intro{
     text-decoration: underline;
-    padding: 1rem;
+    padding: 2px;
 }
 .main-area img{
     display: inline;
@@ -289,6 +289,19 @@ footer {
     
     height: 300px;
     width: 75%;
-    margin-top: 20%;
+    margin: 200px 10px;
+    margin-bottom: 100px;
 
+}
+
+.locationButton{
+    padding-left: 50px;
+}
+
+div.gm.style{
+    padding-left:  200px;
+}
+
+button.custom-map-control-button{
+    padding-left: 0%;
 }
