@@ -125,8 +125,8 @@ label #sidebar_btn:hover{
 .contact-box{
     background: #fff;
     display: flex;
-    padding-top: 100px;
-    padding-left: 500px;
+    padding-top: 200px;
+    padding-left:20%; 
 }
 .contact-top h3{
     padding-bottom: 50px;

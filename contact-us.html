@@ -30,8 +30,8 @@
                 <div class="logo_area">
                     <a href=""><img src="LOGO-01.png" alt="logo"></a>
                 </div>
-            </div>
-        </nav>
+            
+        
     </header>
     <!--Sidebar-->
     <section class="sidebar">
@@ -61,15 +61,15 @@
             <div class="contact-top">
                 <h3>Send your request</h3>
 
-                <form onsubmit="return sendMail(this);" method="POST">
+                <form onsubmit= {sendMail}>
                     <div class="input-row">
                         <div class="input-group">
                             <label>Name</label>
                             <input type="text" placeholder="John Amendo">
                         </div>
                         <div class="input-group">
-                            <label>Phone</label>
-                            <input type="text" placeholder="+1 412 520 321">
+                            <label>Subject</label>
+                            <input type="text" placeholder="">
                         </div>
                         <div class="input-group">
                             <label>Email</label>
@@ -97,5 +97,12 @@
         </footer>
         <script src="assets/js/sendEmail.js"></script>
 </body>
-
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("user_sTEmm2JdtDcORZaWdd5ai");
+   })();
+</script>
 </html>
