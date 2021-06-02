@@ -52,34 +52,34 @@
     </section>
     <!--Introduction-->
     
-      <div class="container">
+      <!-- <div class="container"> -->
+    <div class="main-area">
+        <!-- <div class="contactp"> -->
+        <h3>Send your request</h3>
     
-        <div class="contact-box">
-            <div class="contact-top">
-                <h3>Send your request</h3>
+        <form id="form">
+    
+            <div class="field">
+                <label for="from_name">Name</label>
+                <input type="text" name="from_name" id="from_name" placeholder="Remy Holden">
+            </div>
+                <div class="field">
+                    <label for="email">Email</label>
+                    <input type="email" name="from_name" id="from_name" placeholder="remyholden@gmail.com">
+                </div>
+    
+                <div class="field">
+                    <label for="subject">Subject</label>
+                    <input type="text" name="subject" id="subject" placeholder="Wedding">
+                </div>
+            
+            <div class="field">
+                <label for="message">Message</label>
+                <textarea type="text" name="message" id="message" cols="4" rows="5"></textarea> 
+            </div>
 
-                <form id="form">
-  
-  <div class="field">
-    <label for="from_name">from_name</label>
-    <input type="text" name="from_name" id="from_name">
-  <div class="field">
-    <label for="email">email</label>
-    <input type="email" name="from_name" id="from_name">
-  </div>
-
-  <div class="field">
-    <label for="subject">subject</label>
-    <input type="text" name="subject" id="subject">
-  </div>
-</div>
-  <div class="field">
-    <label for="message">message</label>
-    <input type="text" name="message" id="message">
-  </div>
-  <input type="submit" id="button" value="Send Email" >
-</form>
-  
+            <input type="submit" id="submit" value="Send Email">
+        </form>
     
     <section>
         <footer>

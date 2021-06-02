@@ -286,8 +286,31 @@ footer {
 }
 
 /* form */
+.main-area h3{
+  margin-left: 20%;
+  padding-bottom: 40px;
+  padding-top: 10px;
+}
+#form{
+    padding-left: 20%;
+}
+.field{ 
+    width: 50%;
+}
 
-.field {
+.submit{
+    text-align: center;
+}
+#submit{
+    width: 150px;
+    text-align: center;
+    margin-left: 20%;
+    background-color: #4CCDBE;
+    border-radius: 40px;
+}
+
+
+/* .field {
   margin-bottom: 10px;
 }
 
@@ -311,4 +334,4 @@ input[type="submit"] {
   background-color: #4460AA;
   color: #fff;
   border: none
-}
+} */
