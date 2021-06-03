@@ -112,10 +112,10 @@ iii.git push
 8. You choose the file you want to deploy and press ‘save’ and this will populate a link which you can use in browsers. 
 
 ## Credits
-[https://www.w3schools.com/css/]- This heavily influenced the general layout especially the carousel item and Meet the Team section. 
+[https://www.w3schools.com/css/]- This influenced styling and using correct syntax. 
 [https://www.youtube.com/watch?v=M-pil5oHw0w&list=PLGrj4Wb6mEkh-wpM6A1Y055uQOlktzxA-&index=11&t=675s]- This heavily influenced the navigation bar.
 ### Content
-- The text content is my creating intended to be the initial draft of the site. 
+- The text content is my creation intended to be the initial draft of the site. 
 
 ### Media
 - The photos used in this site were obtained from Google. 

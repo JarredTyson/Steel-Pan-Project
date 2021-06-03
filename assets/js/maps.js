@@ -1,13 +1,13 @@
-
-
 function initMap() {
-  map = new google.maps.Map(document.getElementById("map"), {
-    center: { lat: 51.507351, lng: -0.127758},
-    zoom:12,
-  });
+	var myMapCenter = { lat: 51.507351, lng: -0.127758};
 
-
-
+	// Create a map object and specify the DOM element for display.
+	var map = new google.maps.Map(document.getElementById('map'), {
+		center: myMapCenter,
+		zoom: 14
+    });
+    
+    
   infoWindow = new google.maps.InfoWindow();
   const locationButton = document.createElement("button");
   locationButton.textContent = "Pan to Current Location";
@@ -38,32 +38,47 @@ function initMap() {
 
   
   });
-var labels= "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-
-            var locations = [
-                {lat: 51.507351, lng: -0.127758 },
-                {lat: 35.096290, lng: -89.739940 },
-                {lat: 51.692310, lng: -0.178690 },
-                {lat: 51.372360, lng: -0.100400 },
-                {lat: 51.568712, lng: -0.102706 },
-                {lat: 51.652299, lng: -0.080711 },
-                {lat: 51.546483, lng: -0.129350 },
-                {lat: 40.754932, lng: -73.984016 },
-                {lat: 40.754932, lng: -73.984016 }
 
 
-            ];
-            var markers= locations.map(function(location,i){
-                return new google.maps.Marker({
-                    position:location,
-                    label: labels[i % labels.length]
-                 });
-            });
-        
-        
-         new MarkerClusterer(map, markers, {
-    imagePath:"https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
-  });
- }
-    let map, infoWindow;
+	function markStore(storeInfo){
 
+		// Create a marker and set its position.
+		var marker = new google.maps.Marker({
+			map: map,
+			position: storeInfo.location,
+			title: storeInfo.name
+		});
+
+		// show store info when marker is clicked
+		marker.addListener('click', function(){
+			showStoreInfo(storeInfo);
+		});
+	}
+
+	// show store info in text box
+	function showStoreInfo(storeInfo){
+		var info_div = document.getElementById('info_div');
+		info_div.innerHTML = 'Class location: '
+			+ storeInfo.name
+            + '<br>Ability: ' + storeInfo.ability
+            + '<br>Hours: ' + storeInfo.hours;
+	}
+
+	var stores = [
+		{
+            name: 'Central London Class',
+            location: {lat: 51.507351, lng: -0.127758 },
+            ability: 'Adult Class',
+			hours: '8AM to 10PM'
+		},
+		{
+			name: 'Store 2',
+			location: {lat: 51.692310, lng: -0.178690 },
+			hours: '9AM to 9PM'
+		}
+	];
+
+	stores.forEach(function(store){
+		markStore(store);
+	});
+}
