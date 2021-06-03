@@ -3,25 +3,24 @@
 This website is created for a steelpan charity. The aim of the organisation is to increase the availibilty of the instrument with the intent to make the instrument as prominent as other conventional instrument. Due to it being created in the 21st century
 as oppose to other instruments that have been around for centuries. The organisation creates lessons and does workshops to increase public knowledge and give people the pleasure of experiencing the instrument. 
 ###	First Time Visitor Goals
-#### i.	As a Visitor for the First Time, I want a general overview of the band and what is represented by them on their website.
-* a.	When you enter the page you are presented with the bright colours in the hewader and navigation bar. 
-* b.	The home page displays the introduction section with an image to the left of children performing.
-* c.	The introduction image showcases the intetion of the organsiation to teach young people the intrument.
-* d.	The user has the option to navigate to the other pages shown in the navigation bar.
-#### ii.	As a Visitor for the First Time, I want to be able to navigate around the site effortlessly to discover more information about the band.
-* a.	The site was designed to be coherent and not set the user adrift.  The navigation bar is located at the top of each page for uniformity, each containing a link describing and giving clear representation where the page will lead them. 
-* b.	At the bottom of each page you have the social media links that you will be able to click to lead to view different representations of the band.
-* c.	The ‘About the Band’ section is located  at the centre of the page giving our description about the band and some personal history. 
-##### iii.	As a Visitor for the First Time I want to locate their social media links to see their following on social media to determine how trusted and known they are.
-* a.	The about us section will give the user background information into our history and the bands mission. 
-* b.	The contact page is there for the customer to get in contact for any queries. 
-* c.	The user can also scroll to the bottom of any page on the site to locate social media links in the footer to gather our current events and social interactions with clients .
+#### i.	As a Visitor for the First Time, I am intrigued to see what the organisation does. 
+* a.	You are presented with the bright colours in the header and navigation bar when you enter the site. 
+* b.	The home page displays the introduction section with an image to the right of children performing on steel pan.
+* c.	The introduction image showcases the intetion of the organsiation to teach young people the instrument.
+#### i.	As a Visitor for the First Time, I am intrigued to see what the organisation is about. 
+* a.	The home page has a clear description of the organsations intentions. 
+* b.	Furthermore the about section gives details to the history of the organisation and more details to its intentions.
+* c.	Both pictures on the site are young people playing the instrument to showcase further what the organisation does. 
+#### ii.	As a Visitor for the First Time, I want to be able to navigate around the site easily
+* a.	The site was designed to be familiar to the audience, enabling them to not be lost and access the information efficiently. 
+* b.	the simple layout with navigation  bar on the left makes it easy for the user to constantly have access to the other pages. 
+* c.	 The icons give further indication what will be displayed on that page. 
 #### Returning Visitor Goals
 ##### i.	As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
 * a.	The navigation bar clearly highlights the "Contact Us" Page. 
-* b.	On this page there is a message area big enough to contain most questions or submit any message.
-* c.	In addition to these are our social media links in the footer of each page which are also good forms of communication that the public can get in touch with any queries. 
-##### ii.	As a Returning Visitor, I want to interact with others in the community.
+* b.	On this page there the message area is sizeabe enough to fit most queries. 
+* c.	THe social media links located in the footer are other mediums the public can get in contact. 
+##### ii.	As a Returning Visitor, I want to interact with their social media.
 * a.	The Facebook Page can be found at the footer of every page and will open a new tab for the user and more information can be found on the Facebook page.
 * b.	Alternatively, you can use the youtube link that will contain peoples comments and opinions to interact with.  
 #### Frequent User Goals
@@ -33,32 +32,25 @@ as oppose to other instruments that have been around for centuries. The organisa
 
 
 ## UX
-The main purpose is to promote the band with the intention of giving an insight into different/in-depth aspects of the band.  
-- Customer goals- as a customer (new users, As a user type, I want to review the band before booking them for a special occasion. 
-- Customer goals- as a returning user, I would like to see what the band have been up to refresh my mind with the atmosphere of the band he gallery page gives some indication of that.  
-- Customer goals- as a constant supporter of the band I would like to
-- Business goals- as a band member I want to ensure that there is a link for customer to find out about personal projects which will be located on the profile pages. 
-- Business Goals- as the manager of the band I want to ensure that the process is as simple as possible for customers to book the band to increase business which is located in the get a quote section just below the slider quite centrally on the page. Also has numerous way to contact the band to follow-up enquiries. 
-I wanted to create a website that showcased the project of the band and give the audience a deeper understanding of that band that isn’t as possible on other media platforms. I wanted to ensure that it was attractive to the eye encouraging people to see the professionalism of the band and book for gigs such as weddings, awards/special occasions,
-
+The main purpose of the site is to inform the audience of our work and promote some of the classes that we do and give general updates to our audience to stay informed of the work we continue to do. 
 ### Existing Features
-- [x] Gallery-  shows the band in the positive format and gives a sense of the vibe of the band. 
-- [x] About – enlists the history of the band along with aims and goals.
-- [x] Social- gives a link to the different social platforms that we are on.  
-- [x] Meet the team- allows the user to further knowledge about the band to achieve knowing the artists and being presentable for their event. 
+- [x] Home-  Gives an introduction to the organisation and the work it does. 
+- [x] About – enlists the history of the organsation and why it was created along with goals and aspirations.
+- [x] News- gives a details  about current affairs.  
+- [x] Classes- allows the audience to see the classes that we run if they're interested in learning the instrument.
+- [x] Contact Us- allows the audience to get in contact with any queries.
 ### Feature Left to Implement
-- [ ] A news page- a section to keep people interested in the band up to date.
-- [ ] Calendar- That will show the date =s we are busy if you intend to book us on a specific date. 
-- [ ] Philosophy section- Will have quotes that we abide by.
-- [ ] Reviews- A section that shows what previous clients have said about us. 
-- [ ] Video playing on site to give the customer a taste of what to expect. 
+- [ ] An indepth news page probably set out like a news article to give in details of projects such as working in schools.
+- [ ] Social media links that work.  
+- [ ] A search option for classes to not only find classes near current location or scroll around to find area. 
+- [ ]  
+- [ ] 
 ## Design 
 - Fonts- Needed clarity and would like to be more up-market but also needed it to be easily readable.
 - The icons were chosen to give further clarity on what can be expected when clicking through onto the intended page. 
-- The colours- were chosen to represent simplicity and give an up-market feel. The bands prices reflect that of high-standard and therefor needs to have a classy appeal. 
-- Styling- Needed to be in between classy but maintain its fun and authenticity therefor providing a fun factor was intended. 
-- Background- To be fairly plain to not bombard the customer and give light to the key features on the page. 
-- Images used are there to represent the band.
+- The colours selected are bright to create an uplifting sense as many charities aim to improve difficult situations. 
+- Has a simplistic style enabling any person with any basic ability to navigate and not be overwhelmed.
+- Images used represent some of the organisations work.
 ## Technologies Used
 1.	Bootstrap 4.4.1:
 o	Bootstrap was used to assist with the responsiveness and styling of the website.
@@ -88,32 +80,21 @@ o	Balsamiq was used to create the wireframes during the design process.
 Ran the CSS file through W3C CSS Validation Service. It came back with 6 errors that have now been edited and then put back through to receive W3C CSS Validator results for TextArea (CSS level 3 + SVG)
 Ran the index.html file through W3C HTML Validation service to make amends to any errors and changed the necessary code to suit a better structure. The Nu HTML checker ensured the ‘Document checking completed. No errors or warning to show’. 
 
-
-1.	As a new visitor to the website, I want to easily navigate the site, do that I can find what I need efficiently.
-i.	No matter what page the new visitor lands on, they can easily find and use the navigation bar.
-ii.	The logo image always leads back to the home page ( the starting place for most client stories).
-iii.	The Get Quote located on the middle of the page is clear and centrally located with clear indication and a good description on the functionality. 
-
-2.	As a returning customer I want to get an update on the band progress and relearn/familiarise myself of the band performance. 
-i.	I can look into the gallery page to see some of the previous events they’ve played for. 
-ii.	I have a link to their social media links that can give details into their recent experiences in events. 
-
 ## Further Testing 
 I ran the site continuously on Google Chrome on a large screen and the site generally ran how I imagined it to look.
 I also tested the site on Sarafi, Internet Explorer and Microsoft Edge. 
-The website was reviews on a number of devices such as Ipad air, iphone, 15inch laptop and 13 inch laptop and wide 24inch desktop screen.
+The website was reviewed on a number of devices such as Ipad air, iphone, 15inch laptop and 13 inch laptop and wide 24inch desktop screen.
 Testing was done to ensure links did not break.  
 
 ### Known Bugs
 
-* One problem that occurs is the book online section where the header lines are not centred.
-The gallery page when tested on my Iphone 8 was quite short and doesn’t have the feature of being able to click into the picture to get a larger view.
-* Many of the items you click on the page refresh the page and bring you back to the top which is a slight inconvenience as links will be added in the future.
-* The carousel item moves the entire page when it goes onto a different picture. 
+* One bug is when using the google maps the whole page shift to display class contents.
+* Many of the items you click on the page refresh the page and bring you back.
+* Ideally the contacts page should not move when you close sidebar. 
 ### Resolved Bugs 
-* The photos in the carousel were squashed and to resolve I used the “object-fit: cover;” function so the images don’t look squashed and fill the entire space.
-* I found that none of the styling elements were working despite many trials to eventually find that the style-sheet was not correctly added in the header.
-* In the header I noticed that the carousel was not working. After close inspection I found that “carousel-Inidicators” was spelt wrong. This was not enabling the carousel to move. Re-spelt the word ‘Indicators’ and the slider began to work.
+* Google maps api was not working but eventually managed to integrate both the marker and 
+* Mail api was not working despite many attempts and ending up using example code on the website.
+* The sidebar was not moving the contents as intended and had to remove layers/containers or select correct containers to move.
 
 
 ## Deployment
@@ -131,20 +112,17 @@ iii.git push
 8. You choose the file you want to deploy and press ‘save’ and this will populate a link which you can use in browsers. 
 
 ## Credits
-[https://www.youtube.com/watch?v=9cKsq14Kfsw]- This heavily influenced the general layout especially the carousel item and Meet the Team section. 
-[https://www.youtube.com/watch?v=52pEihWDQ9A]- This heavily influenced the contact page.
+[https://www.w3schools.com/css/]- This heavily influenced the general layout especially the carousel item and Meet the Team section. 
+[https://www.youtube.com/watch?v=M-pil5oHw0w&list=PLGrj4Wb6mEkh-wpM6A1Y055uQOlktzxA-&index=11&t=675s]- This heavily influenced the navigation bar.
 ### Content
 - The text content is my creating intended to be the initial draft of the site. 
 
 ### Media
-- The photos used in this site were obtained from photos I created when the band had a performance. 
+- The photos used in this site were obtained from Google. 
 
 ### Acknowledgements
 I used inspiration from the other Steelband in the UK. 
 Mangrove Steel Band- [https://mangrovesteelband.wordpress.com/] 
-Ebony Steel Band- [https://www.ebony-steelband-trust.co.uk/] 
-Pan Nation Steel Orchestra- [https://www.pan-nation.co.uk/] 
-Endurance Steel Band- [https://www.endurancesteelorchestra.com/] 
 
 
 Tutor support at Code Institute for their support.
