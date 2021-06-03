@@ -43,8 +43,8 @@ The main purpose of the site is to inform the audience of our work and promote s
 - [ ] An indepth news page probably set out like a news article to give in details of projects such as working in schools.
 - [ ] Social media links that work.  
 - [ ] A search option for classes to not only find classes near current location or scroll around to find area. 
-- [ ]  
-- [ ] 
+- [ ] The classes are not active and are used as examples but will be Implement in the future. 
+
 ## Design 
 - Fonts- Needed clarity and would like to be more up-market but also needed it to be easily readable.
 - The icons were chosen to give further clarity on what can be expected when clicking through onto the intended page. 
@@ -87,7 +87,7 @@ The website was reviewed on a number of devices such as Ipad air, iphone, 15inch
 Testing was done to ensure links did not break.  
 
 ### Known Bugs
-
+* Buttons on Google maps change due to styling errors. 
 * One bug is when using the google maps the whole page shift to display class contents.
 * Many of the items you click on the page refresh the page and bring you back.
 * Ideally the contacts page should not move when you close sidebar. 
@@ -95,8 +95,8 @@ Testing was done to ensure links did not break.
 * Google maps api was not working but eventually managed to integrate both the marker and 
 * Mail api was not working despite many attempts and ending up using example code on the website.
 * The sidebar was not moving the contents as intended and had to remove layers/containers or select correct containers to move.
-
-
+## Mock-ups
+Mock-ups are located in the folder name of Mock-ups. 
 ## Deployment
 To use and make changes to gitpod to change code on the site. 
 1. Open a browser and search for github. 
@@ -121,8 +121,8 @@ iii.git push
 - The photos used in this site were obtained from Google. 
 
 ### Acknowledgements
-I used inspiration from the other Steelband in the UK. 
-Mangrove Steel Band- [https://mangrovesteelband.wordpress.com/] 
+I used inspiration from the other Steel pan charity in the UK. 
+Mangrove Steel Band- [https://www.steelpantrust.com/] 
 
 
 Tutor support at Code Institute for their support.

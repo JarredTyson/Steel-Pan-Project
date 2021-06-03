@@ -68,12 +68,57 @@ function initMap() {
 		{
             name: 'Central London Class',
             location: {lat: 51.507351, lng: -0.127758 },
-            ability: 'Adult Class',
-			hours: '8AM to 10PM'
+            ability: 'Intermediate Adult Class',
+            Day: 'Monday',
+			hours: '8PM to 10PM'
 		},
 		{
-			name: 'Store 2',
-			location: {lat: 51.692310, lng: -0.178690 },
+			name: 'Potters Bar Class',
+            location: {lat: 51.692310, lng: -0.178690 },
+            ability: 'Beginner Children Class',
+            Day: 'Wednesday',
+			hours: '5:30PM to 7:00PM'
+        },
+        {
+			name: 'Hornchurch Class',
+            location: {lat: 51.562330, lng: -0.218640 },
+            ability: 'Intermediate Adult Class',
+            Day: 'Thursday',
+            hours: '7PM to 8PM'
+        },
+        {
+			name: 'Lewisham Class',
+            location: {lat: 51.441545, lng: -0.011745 },
+            ability: 'Improv Class',
+            Day: 'Saturday',
+			hours: '6PM to 9PM'
+        },
+        {
+			name: 'Wembley Class',
+            location: {lat: 51.550509, lng: -0.304807 },
+            ability: 'Beginner 14/18 Class',
+            Day: 'Thursday',
+			hours: '9AM to 9PM'
+        },
+        {
+			name: 'Forrest Gate',
+            location: {lat: 51.692310, lng: -0.026435 },
+            ability: 'Experienced Adults',
+            Day: 'Friday',
+			hours: '9AM to 9PM'
+        },
+        {
+			name: 'Edmonton Class',
+            location: {lat: 51.624234, lng: -0.060467 },
+            ability: 'Sunday',
+            Day: 'Monday',
+			hours: '9AM to 9PM'
+        },
+        {
+			name: 'Chingford',
+            location: {lat: 51.632134, lng: -0.007465 },
+            ability: 'Beginner Seniors',
+            Day: 'Monday',
 			hours: '9AM to 9PM'
 		}
 	];

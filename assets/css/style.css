@@ -70,7 +70,7 @@ header{
     text-decoration: none;
     padding-left: 40px;
     box-sizing: border-box;
-    transition: 0.5;
+    transition: 0.5s;
     transition-property: background;
 }
 
@@ -262,11 +262,6 @@ footer {
     margin: 100px 10px;
     margin-bottom: 100px;
 }
-/* #info_div{
-    padding-top: 130px;
-} */
-
-
 
 /* Media Queries */
 @media (max-width: 1250px){
